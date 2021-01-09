@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+html,body{
+ height: 100%;
+}
+header{
+  width: 100%;
+  height: 90vh; /*vh es es porcemntaje en relacion con la pantalla*/
+  background-image: url(../imagens/codigo.jpg);
+  background-size: cover;
+  background-position: center;
+  max-height: 800px;
+}
+.clear{
+  clear: both;
+}
+.logo{
+  position: absolute;
+  left: 10%;
+  height: 50px;
+  width: 150px;
+  background-color: grey;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header nav{
+  position: absolute;
+  right: 10%;
+}
+header nav li{
+  font-size: 15px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+li a{
+  text-decoration-line: none;
+  color: white;
+}
+.llamada1{
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  height: 200px;
+  width: 600px;
+  color: white;
+ /* background-color: rgba(100, 100, 100, 0.2);
+*/}
+.llamada1 h2{
+  font-weight: 300;
+  font-size: 35px;
+  text-align: left;
+  padding: 20px;
+}
+.llamada1 p{
+  font-size: 10px;
+  text-align: left;
+  width: 60%;
+  padding-left: 5%;
+}
+section.session1{
+  width: 100%;
+  height: 400px;
+  background-color: #472562;
+}
+.texto-session1{
+  float: left;
+  color: white;
+  margin-top: 40px;
+  padding-left: 2px;
+  position: relative;
+  left: 120px;
+}
+.texto-session1 h2{
+  font-weight: 300;
+  padding-bottom: 20px;
+  font-size: 43px;
+}
+.texto-session1 p{
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
+.texto-session1 ul{
+  list-style-position: inside;
+}
+.texto-session1 ul li{
+  float: left;
+  margin-top: 8px;
+  width: 100%;
+}
+.btn1-texto{
+  background-color: green;
+  width: 165px;
+  height: 44px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -38%;
+}
+.device-session1{
+  float: left;
+  width: 50%;
+  height: 480px;
+  position: relative;
+  top: -80px;
+  right: 9%;
+  background-image: url(../imagens/device.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+}
+
