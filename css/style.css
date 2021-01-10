@@ -364,19 +364,22 @@ section.session4{
 	float: left;
 	width: 50%;
 	color: white;
-	padding-left: 60px;
+	padding-left: 10px;
+  padding-right: 15px;
 }
 
 .form h2{
 	font-size: 23px;
 	font-weight: 300;
+   padding-right: 15px;
 }
 
 .form p{
 	font-size: 15px;
 	font-weight: 300;
 	max-width: 400px;
-	padding-right: 10px;
+  display: inline-block;
+   padding-right: 15px;
 }
 
 .form form{
@@ -384,17 +387,16 @@ section.session4{
 }
 
 .form form input[type=text]{
-	width: 100%;
+	width: 90%;
 	max-width: 480px;
 	margin-top:8px;
 	height: 58px;
-	padding-left: 8px;
 	line-height: 58px;
 	border:1px solid rgb(200,200,200);
 }
 
 .form form textarea{
-	width: 100%;
+	width: 90%;
 	margin-top:8px;
 	max-width: 480px;
 	padding:15px;
@@ -422,6 +424,7 @@ section.session4{
 	width: 50%;
 	padding:0 10px;
 	color: white;
+  position: relative;
 }
 
 .map-wraper h2{
@@ -430,8 +433,7 @@ section.session4{
 }
 
 .map-wraper3{
-	margin-top:10px;
-	width: 100vh;
+	width: 100%;
 	max-width: 480px;
 	position: relative;
 }
@@ -477,10 +479,11 @@ footer p:nth-of-type(2){
 	font-size: 14px;
 }
 
-@media screen and (max-width: 630px){
-  body{
-    display: inline-block;
-  }
+@media screen and (max-width: 768px){
+  /* body{
+   display: inline-block;
+   justify-content: center;
+  }*/
 
 header{
 	width: 100%;
