@@ -233,6 +233,7 @@ section.session2{
   position: relative;
   top: 100px;
   width: 100%;
+  margin-bottom: 15px;
 }
 .session3{
   width: 100%;
@@ -479,7 +480,7 @@ footer p:nth-of-type(2){
 	font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 750px){
   /* body{
    display: inline-block;
    justify-content: center;
