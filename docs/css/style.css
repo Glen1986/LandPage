@@ -299,7 +299,7 @@ section.session2{
   left: 30px;
 	width: 40px;
 	height:40px;
-	background-image: url('../imagens/yo.jpg');
+	background-image: url('../imag/yo.jpg');
 	background-size: 100% 100%;
 	border-radius: 20px;
   position: relative;
@@ -484,7 +484,9 @@ footer p:nth-of-type(2){
    display: inline-block;
    justify-content: center;
   }*/
-
+.container{
+  display: inline-block;
+}
 header{
 	width: 100%;
 	height: auto;
@@ -521,7 +523,7 @@ section.session1{
   margin:160px 0;
   text-align: center;
   text-shadow: 5px 5px 9px black;
-
+  display: inline-block;
 }
 .llamada1 h2{
   color: white;
@@ -587,16 +589,22 @@ section.session1{
 section .session2 .container p{
   width: 400px;
 }
-
+section.session4 .container, form, input[type=submit]{
+  display: flex;
+	position: static; 
+	float: none;
+	display: inline-block;
+  text-align: center;
+}
 section.session4 .container{
 	text-align: center;
-  display: inline-block;
 }
 
 .form{
 	float: none;
 	width: 100%;
   display: block;
+  align-items: center; 
 }
 
 .form p{
@@ -629,44 +637,38 @@ section.session4 .container{
 	height: 100%;
 	padding-top:0;
 }
-
+.form form input[type=submit]{
+  position: relative;
+	border: 0;
+	background-color: green;
+	width: 165px;
+	height: 44px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+	margin-top:15px;
+	border-radius: 30px;
+  display: block;
+  left: 20px;
+ }
+ .submit-form{
+	display: inline-block;
+  }
+}
 @media screen and (max-width: 580px){
   .part1{
     width: 100%;
-  }
-  .wraper-part1 h2, p{
-   position: relative;
-   left: -300px;
+    padding: 40px 0;
   }
   .part2{
-    widows: 100%;
+    width: 100%;
+    padding: 40px 0;
   }
-
-  header{
-	width: 100%;
-	height: auto;
-	min-height: 90vh;
-	padding:40px 2%;
-  text-align: center;
- }
-}
-section .session2 .container p, h2{
-  padding-left: 10%;
-}
-@media screen and (max-width: 500px){
-   section .session2 .container p, h2{
-   padding-left: 10%;
- }
-   .part1{
+  .session2 img{
+    position: relative;
+    top: 70px;
     width: 100%;
   }
-  .wraper-part1 h2, p{
-   position: relative;
-   left: -300px;
-  }
-  .part2{
-    widows: 100%;
-  }
 
   header{
 	width: 100%;
@@ -675,8 +677,9 @@ section .session2 .container p, h2{
 	padding:40px 2%;
   text-align: center;
  }
-}
+
 section .session2 .container p, h2{
   padding-left: 10%;
+  }
 }
-}
+
