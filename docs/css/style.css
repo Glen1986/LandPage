@@ -681,5 +681,39 @@ section.session4 .container{
 section .session2 .container p, h2{
   padding-left: 10%;
   }
+  .session2{
+	padding-left: 2%;
+	padding-right: 2%;
+	background: white;
+	text-align: center;
+}
+.session2 .container{
+	max-width: 1000px;
+}
+  
+section.session2{
+  width: 100%;
+  padding-top: 80px 2%;
+  background-color: white;
+  text-align: center;
+  display: block;
+  
+}
+.session2 h2{
+  color: #472563;
+  font-weight: 400;
+}
+.session2 p{
+  padding-top: 20px;
+  max-width: 800px;
+  display: inline-block;
+  width: 100%;
+}
+.session2 img{
+  margin-top: 3px;
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
 }
 
