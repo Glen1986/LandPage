@@ -665,6 +665,13 @@ section.session4 .container{
     position: relative;
     top: 70px;
   }
+
+section.session2 {
+  position: static; 
+	float: none;
+	display: inline-block;
+
+  }
   footer{
 		text-align: center;
 	}
