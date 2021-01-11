@@ -197,25 +197,18 @@ section.session1 .container{
 /*.session2>.container{
   position: relative;
   top: -20px;
-}*/
+}
 
 .session2{
 	padding-left: 2%;
 	padding-right: 2%;
 	background: white;
+  text-align: center;
 }
 .session2 .container{
 	max-width: 1000px;
 }
-  
-section.session2{
-  width: 100%;
-  background-color: white;
-  text-align: center;
-  display: block;
-  position: relative;
-  
-}
+
 section.session2 img{
   width: 100%;
   position: relative;
@@ -236,7 +229,37 @@ section.session2 img{
   position: relative;
   top: 100px;
   width: 100%;
+}*/
+ 
+  .session2{
+	padding-left: 2%;
+	padding-right: 2%;
+	background: white;
+	text-align: center;
 }
+
+.session2 .container{
+	max-width: 1000px;
+}
+
+.session2 h2{
+	color: #472663;
+	font-weight: 300;
+}
+
+.session2 p{
+	margin-top:30px;
+	max-width: 900px;
+	display:inline-block;
+}
+
+.session2 img{
+	position: relative;
+	top: 70px;
+	width: 100%;
+	margin-top:10px;
+}
+
 .session3{
   width: 100%;
 }
