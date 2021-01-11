@@ -589,7 +589,7 @@ section.session1{
 section .session2 .container p{
   width: 400px;
 }
-section.session4 .container, form, input[type=submit]{
+section.session4 .container, form, img, input[type=submit]{
   display: flex;
 	position: static; 
 	float: none;
