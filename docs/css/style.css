@@ -533,7 +533,31 @@ section.session1{
 .session1 .container{
 	height: auto;
 }
-
+.llamada1{
+  max-width: 600px;
+  float: none;
+  margin:160px 0;
+  text-align: center;
+  text-shadow: 5px 5px 9px black;
+  display: inline-block;
+}
+.llamada1 h2{
+  color: white;
+  text-shadow: 5px 5px 9px black;
+}
+.llamada h2{
+  font-weight: 300;
+  font-size: 40px;
+  color: white;
+  text-shadow: 5px 5px 9px black;
+}
+.llamada1 p{
+  font-size: 10px;
+  color: white;
+  margin-top: 10px;
+  text-shadow: 5px 5px 9px black;
+  text-align: center;
+}
 
 .texto-session1{
 	width: 100%;
