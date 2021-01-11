@@ -27,19 +27,17 @@ html,body{
 /*.grid.imagenes-cargadas{
   opacity: 1;
 }*/
-header{
-  background-image: url(../imag/world.jpg);
-}
 
 header{
   width: 100%;
   height: 90vh;
-  min-height: 700px;
-  max-height: 800px;
+  min-height: 600px;
+  max-height: 700px;
   padding: 40px 2%;
  /*max-height: 700px;*/
   background-size: cover;
   background-position: center;
+ background-image: url(../imag/world.jpg);
   font-weight: 300;
 }
 header nav {
@@ -57,9 +55,7 @@ nav.mobile-menu{
   background-image: url(../imag/menu.png);
   background-size: 100% 100%;
 }
-nav.mobile-menu:hover ul{
-  opacity: 1;
-}
+
 nav.mobile-menu ul{
   opacity: 0;
   transition: 1s;
@@ -70,6 +66,9 @@ nav.mobile-menu ul{
   top: 80px;
   list-style-type: none;
   text-align: center;
+}
+nav.mobile-menu:hover ul{
+  opacity: 1;
 }
 nav.mobile-menu ul li{
   padding: 8px 0;
@@ -204,7 +203,6 @@ section.session1 .container{
 	padding-left: 2%;
 	padding-right: 2%;
 	background: white;
-	text-align: center;
 }
 .session2 .container{
 	max-width: 1000px;
@@ -212,11 +210,16 @@ section.session1 .container{
   
 section.session2{
   width: 100%;
-  padding-top: 80px 2%;
   background-color: white;
   text-align: center;
   display: block;
+  position: relative;
   
+}
+section.session2 img{
+  width: 100%;
+  position: relative;
+  padding-bottom: 50px;
 }
 .session2 h2{
   color: #472563;
@@ -502,20 +505,14 @@ nav.desktop-menu{
 nav.mobile-menu{
 	display: block;
 }
-.barra-busqueda{
-  position: flex;
- top: 30px;
- left: 200px;
-  border-radius: 25%;
-  height: 90%;
-  width: 40px;
-}
 
 section.session1{
 	padding:40px 2%;
 	height: auto;
 	text-align: center;
-  justify-content: center;
+}
+.sessin1 .container{
+  height: auto;
 }
 .llamada1{
   max-width: 600px;
@@ -667,53 +664,19 @@ section.session4 .container{
   .session2 img{
     position: relative;
     top: 70px;
-    width: 100%;
   }
+  footer{
+		text-align: center;
+	}
 
-  header{
-	width: 100%;
-	height: auto;
-	min-height: 90vh;
-	padding:40px 2%;
-  text-align: center;
- }
+	footer p:nth-of-type(1){
+	    float: none;
+	}
 
-section .session2 .container p, h2{
-  padding-left: 10%;
-  }
-  .session2{
-	padding-left: 2%;
-	padding-right: 2%;
-	background: white;
-	text-align: center;
-}
-.session2 .container{
-	max-width: 1000px;
-}
-  
-section.session2{
-  width: 100%;
-  padding-top: 80px 2%;
-  background-color: white;
-  text-align: center;
-  display: block;
-  
-}
-.session2 h2{
-  color: #472563;
-  font-weight: 400;
-}
-.session2 p{
-  padding-top: 20px;
-  max-width: 800px;
-  display: inline-block;
-  width: 100%;
-}
-.session2 img{
-  margin-top: 3px;
-  position: relative;
-  top: 100px;
-  width: 100%;
-}
+	footer p:nth-of-type(2){
+		float: none;
+		margin-top:8px;
+	}
+
 }
 
