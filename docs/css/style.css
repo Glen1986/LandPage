@@ -153,14 +153,14 @@ section.session1 .container{
   position: relative;
   left: 75px;
   margin-top: 60px;
-  padding-left: 60px;
   color: white;
 }
-.texto-session1 h2{
+.container.texto-session1 h2{
   font-size: 26px;
   font-weight: 300;
 }
-.texto-session1 p{
+
+.container.texto-session1 p{
   margin-top: 20px;
   font-size: 15px;
 }
@@ -191,7 +191,7 @@ section.session1 .container{
   position: relative;
   top: -80px;
   height: 100%;
-  background-image: url(../imagens/device.png);
+  background-image: url(../imag/device.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -233,7 +233,6 @@ section.session2{
   position: relative;
   top: 100px;
   width: 100%;
-  margin-bottom: 15px;
 }
 .session3{
   width: 100%;
@@ -480,7 +479,7 @@ footer p:nth-of-type(2){
 	font-size: 14px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
   /* body{
    display: inline-block;
    justify-content: center;
