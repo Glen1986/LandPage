@@ -65,7 +65,7 @@ nav.mobile-menu ul li:hover{
 nav.mobile-menu ul li a{
   color: black;
   text-decoration: none;
-  text-shadow: 5px 5px 9px black;
+  text-shadow: 1px 1px 6px black;
 
 }
 header .logo{
@@ -104,24 +104,24 @@ header nav.desktop-menu li a{
 }
 .llamada1 h1{
   font-size: 50px;
-  text-shadow: 15px 15px 15px  black;
+  text-shadow: 1px 1px 6px black;
 
 }
 .llamada1 h2, h1{
   color: white;
-  text-shadow: 12px 12px 12px  black;
+  text-shadow: 1px 1px 6px black;
 }
 .llamada h2{
   font-weight: 300;
   font-size: 40px;
   color: white;
- text-shadow: 12px 12px 12px  black;
+ text-shadow: 1px 1px 6px black;
 }
 .llamada1 p{
   font-size: 15px;
   color: white;
   margin-top: 10px;
-  text-shadow: 12px 12px 12px black;
+  text-shadow: 1px 1px 6px black;
 }
 section{
   align-items: center;
@@ -505,24 +505,24 @@ footer p:nth-of-type(2){
     float: none;
     margin:160px 0;
     text-align: center;
-    text-shadow:  15px 15px 15px solid #000000;
+    text-shadow: 1px 1px 6px solid #000000;
     display: inline-block;
   }
   .llamada1 h2{
     color: white;
-   text-shadow:  15px 15px 15px solid #000000; 
+   text-shadow: 1px 1px 6px  solid #000000; 
   }
   .llamada h2{
     font-weight: 300;
     font-size: 40px;
     color: white;
-   text-shadow:  15px 15px 15px solid #000000;
+   text-shadow:  1px 1px 6px  solid #000000;
   }
   .llamada1 p{
     font-size: 10px;
     color: white;
     margin-top: 10px;
-     text-shadow:  15px 15px 15px solid #000000;
+     text-shadow:  1px 1px 6px solid #000000;
     text-align: center;
   }
 
@@ -618,19 +618,19 @@ footer p:nth-of-type(2){
 }
 .llamada1 h2{
   color: white;
-  text-shadow:  15px 15px 15px solid #000000;
+  text-shadow: 1px 1px 6px black;
 }
 .llamada h2{
   font-weight: 300;
   font-size: 40px;
   color: white;
-  text-shadow: 15px 15px 15px solid #000000;
+  text-shadow:  1px 1px 6px black;
 }
 .llamada1 p{
   font-size: 10px;
   color: white;
   margin-top: 10px;
-  text-shadow: 15px 15px 15px solid #000000;
+  text-shadow: 1px 1px 6px black;
   text-align: center;
 }
 section.session2 {
