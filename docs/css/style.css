@@ -340,6 +340,7 @@ section.session4{
 	float: left;
 	width: 50%;
 	color: white;
+  margin: auto;
 	padding-left: 30px;
   padding-right: 30px;
   position: relative;
@@ -380,7 +381,6 @@ section.session4{
 	width: 90%;
 	margin-top:8px;
 	max-width: 480px;
-	padding:15px;
 	border:1px solid rgb(200,200,200);
 	height: 160px;
 }
