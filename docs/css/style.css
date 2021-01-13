@@ -14,20 +14,6 @@ html,body{
 .clear{
   clear:both;
 }
-/*.grid{
-  position: relative;
-  width: 100%;
-  transition: opacity 0.5s linear 1s;
-}
-.grid .item{
-  position: absolute;
-  display: block;
-  padding: 0;
-}*/
-/*.grid.imagenes-cargadas{
-  opacity: 1;
-}*/
-
 header{
   width: 100%;
   height: 90vh;
@@ -50,6 +36,7 @@ header .form .barra-busqueda {
 nav.mobile-menu{
   cursor: pointer;
   display: none;
+  transition: 1s;
   width: 32px;
   height: 32px;
   background-image: url(../imag/menu.png);
@@ -57,8 +44,10 @@ nav.mobile-menu{
 }
 
 nav.mobile-menu ul{
-  opacity: 0;
-  transition: 1s;
+/*  opacity: 0;
+*/ 
+  transition: 2s ;
+  display: none;
   background-color: white;
   position: absolute;
   width: 100%;
@@ -66,9 +55,6 @@ nav.mobile-menu ul{
   top: 80px;
   list-style-type: none;
   text-align: center;
-}
-nav.mobile-menu:hover ul{
-  opacity: 1;
 }
 nav.mobile-menu ul li{
   padding: 8px 0;
@@ -140,7 +126,7 @@ section.session1{
   width: 100%;
   background-color: #708592;
   padding: 0 2%;
-  height: 400px;
+  height: 360px;
 }
 section.session1 .container{
   max-width: 1000px;
@@ -440,9 +426,6 @@ section.session4{
 	cursor: pointer;
 	margin-top:15px;
 	border-radius: 30px;
-  display: block;
-  position: relative;
-  left: 20px;
 }
 
 .map-wraper{
@@ -517,12 +500,13 @@ footer p:nth-of-type(2){
 
 nav.desktop-menu{
 	display:none;
+  
 }
 
 nav.mobile-menu{
 	display: block;
+  transition: 1s;
 }
-
 
 section.session1{
 	padding:40px 2%;
@@ -593,160 +577,12 @@ section.session1{
 section.session4 .container{
 	text-align: center;
 }
-
-.form{
-	float: none;
-	width: 100%;
-}
-
-.form p{
-	display: inline-block;
-	float: none;
-}
-
-.map-wraper{
-	float: none;
-	width: 100%;
-	padding:0 8%;
-	margin-top:40px;
-}
-
-
-.map-wraper3{
-	margin-top:10px;
-	width: 100%;
-	padding-top: 100%;
-	display: inline-block;
-	max-width: none;
-	position: relative;
-}
-
-.map-wraper2{
-	position: absolute;
-	left: 0;
-	top:0;
-	width: 100%;
-	height: 100%;
-	padding-top:0;
-}
-
-}
-  /* body{
-   display: inline-block;
-   justify-content: center;
-  }
-header{
-	width: 100%;
-	height: auto;
-	min-height: 90vh;
-	padding:40px 2%;
-  text-align: center;
-}
-
-nav.desktop-menu{
-	display:none;
-}
-
-nav.mobile-menu{
-	display: block;
-}
-
-section.session1{
-	padding:40px 2%;
-	height: auto;
-	text-align: center;
-}
-.sessin1 .container{
-  height: auto;
-}
-.llamada1{
-  max-width: 600px;
-  float: none;
-  margin:160px 0;
-  text-align: center;
-  text-shadow: 5px 5px 9px black;
+section.session4 .container .form{
   display: inline-block;
 }
-.llamada1 h2{
-  color: white;
-  text-shadow: 5px 5px 9px black;
-}
-.llamada h2{
-  font-weight: 300;
-  font-size: 40px;
-  color: white;
-  text-shadow: 5px 5px 9px black;
-}
-.llamada1 p{
-  font-size: 10px;
-  color: white;
-  margin-top: 10px;
-  text-shadow: 5px 5px 9px black;
-  text-align: center;
-}
-.session1 .container{
-  max-width: 90vh;
-	height: auto;
-  text-align: center;
-}
-
-
-.texto-session1{
-	width: 80%;
-	margin-top:0;
-	padding-left: 0;
-	position: static; 
-	float: none;
-	display: inline-block;
-}
-.session1.container.texto-session1 h2{
-  max-width: 60%;
-  text-align: center;
-  padding-right: 10px;
-}
-
-.texto-session1 ul{
-	display: inline-block;
-	margin-top:20px;
-  text-shadow: 5px 5px 9px black;
-}
-
-.texto-session1 ul li{
-	float: none;
-	text-align: left;
-  text-shadow: 5px 5px 9px black;
-}
-
-.btn1-texto{
-	display: inline-block;
-}
-
-.device-session1{
-  display: none;
-}
-.session2 .container{
-  position: relative;
-  top: 10px;
-}
-section .session2 .container p{
-  width: 400px;
-}
-section.session4 .container, form, img, input[type=submit]{
-  display: flex;
-	position: static; 
-	float: none;
-	display: inline-block;
-  text-align: center;
-}
-section.session4 .container{
-	text-align: center;
-}
-
 .form{
 	float: none;
 	width: 100%;
-  display: block;
-  align-items: center; 
 }
 
 .form p{
@@ -779,24 +615,9 @@ section.session4 .container{
 	height: 100%;
 	padding-top:0;
 }
-.form form input[type=submit]{
-  position: relative;
-	border: 0;
-	background-color: green;
-	width: 165px;
-	height: 44px;
-	font-size: 13px;
-	color: white;
-	cursor: pointer;
-	margin-top:15px;
-	border-radius: 30px;
-  display: block;
-  left: 20px;
- }
- .submit-form{
-	display: inline-block;
-  }
-}*/
+
+}
+
 @media screen and (max-width: 580px){
   .part1{
     width: 100%;
