@@ -159,7 +159,7 @@ section.session1 .container{
   margin-top: 8px;
 }
 .btn1-texto{
-  background-color: green;
+  background-color: rgb(0, 230, 0);
   width: 125px;
   height: 44px;
   font-size: 13px;
@@ -395,7 +395,7 @@ section.session4{
 
 .form form input[type=submit]{
 	border: 0;
-	background-color: green;
+	background-color: rgb(0, 230 , 0);
 	width: 165px;
 	height: 44px;
 	font-size: 13px;
