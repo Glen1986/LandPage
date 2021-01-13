@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
   $('nav.mobile-menu').click(function(){
     var listaMenu = $('nav.mobile-menu ul')
 
@@ -11,7 +11,7 @@ if(listaMenu.is(':hidden') == true){
       console.log('off');
     }
   })     
-})
+})*/
 
 
 
