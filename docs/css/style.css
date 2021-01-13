@@ -238,10 +238,10 @@ section.session1 .container{
 .part2{
   float: left;
   width: 50%;
-  padding: 140px 0 90px 0;
+  padding: 140px 0 90px 10px;
   background: white;
 }  
-.iconos .container{
+/*.iconos .container{
   display: flex;
   align-content: center;
   justify-content: center;
@@ -257,11 +257,18 @@ section.session1 .container{
   border-radius: 100px;
   transition: .3s ease all;
   text-align: center;
+}*/
+.scrollEquipe{
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.scrollWraper{
+  width: 100%;
 }
 .sobre-autor{
 	float: left;
-	max-width: 600px;
-	padding-left: 30px;
+  width: 100%;
 }
 .titulo-autor{
   float: left;
@@ -282,7 +289,7 @@ section.session1 .container{
 }
 .sobre-autor{
   float: left;
-  max-width: 800px;
+  max-width: 960px;
   padding-left: 30px;
 }
 
@@ -311,14 +318,15 @@ section.session1 .container{
 .texto-autor p{
 	color: #232323;
 	font-size: 15px;
-  max-width: 500px;
+  width: 100%;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .slider-bullets{
 	width: 100%;
 	float: left;
-	padding-left: 30px;
+	padding-left: 60px;
 	margin-top:12px;
 }
 
