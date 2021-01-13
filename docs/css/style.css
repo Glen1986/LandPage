@@ -180,43 +180,7 @@ section.session1 .container{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-/*.session2>.container{
-  position: relative;
-  top: -20px;
-}
 
-.session2{
-	padding-left: 2%;
-	padding-right: 2%;
-	background: white;
-  text-align: center;
-}
-.session2 .container{
-	max-width: 1000px;
-}
-
-section.session2 img{
-  width: 100%;
-  position: relative;
-  padding-bottom: 50px;
-}
-.session2 h2{
-  color: #472563;
-  font-weight: 400;
-}
-.session2 p{
-  padding-top: 20px;
-  max-width: 800px;
-  display: inline-block;
-  width: 100%;
-}
-.session2 img{
-  margin-top: 3px;
-  position: relative;
-  top: 100px;
-  width: 100%;
-}*/
- 
   .session2{
 	padding-left: 2%;
 	padding-right: 2%;
@@ -376,14 +340,15 @@ section.session4{
 	float: left;
 	width: 50%;
 	color: white;
-	padding-left: 10px;
+	padding-left: 30px;
   padding-right: 15px;
+  position: relative;
 }
 
 .form h2{
 	font-size: 23px;
 	font-weight: 300;
-   padding-right: 15px;
+  padding-right: 15px;
 }
 
 .form p{
@@ -391,11 +356,14 @@ section.session4{
 	font-weight: 300;
 	max-width: 400px;
   display: inline-block;
-   padding-right: 15px;
+  padding-right: 15px;
 }
 
 .form form{
 	margin-top:15px;
+  max-width: 580px;
+  display: inline-block;
+  position: relative;
 }
 
 .form form input[type=text]{
@@ -403,6 +371,7 @@ section.session4{
 	max-width: 480px;
 	margin-top:8px;
 	height: 58px;
+  padding-right: 50px;
 	line-height: 58px;
 	border:1px solid rgb(200,200,200);
 }
@@ -431,7 +400,7 @@ section.session4{
 .map-wraper{
 	float: left;
 	width: 50%;
-	padding:0 10px;
+	padding:0 30px;
 	color: white;
   position: relative;
 }
@@ -577,12 +546,11 @@ section.session1{
 section.session4 .container{
 	text-align: center;
 }
-section.session4 .container .form{
-  display: inline-block;
-}
 .form{
 	float: none;
 	width: 100%;
+  margin: auto;
+  display: inline-block;
 }
 
 .form p{
