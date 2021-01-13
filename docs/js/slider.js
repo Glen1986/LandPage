@@ -19,7 +19,6 @@ $(function(){
       if(curIndex == amt)
         curIndex = 0;
       goToSlider(curIndex);
-      console.log('ok');
     },delay)
   }
   function goToSlider(curIndex){
